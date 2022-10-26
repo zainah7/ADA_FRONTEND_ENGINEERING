@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sign up FREE | Typeform</title>
+</head>
+<body>
+     <style>
+          body {
+               margin: 10px;
+               padding: 120px;
+               background-color: silver;
+               display: flex;
+               font-size: 15px;
+               font-family: sans-serif;
+               margin-top: 10px;
+               color: brown;
+          }
+          h1 {
+               font-size: 20px;
+          }
+          h2 {
+               font-size: 15px;
+          }
+     </style>
+     <form action="/action_page.php">
+          <h1>Sign up FREE | Typeform</h1>
+          <label>Username: <input type="text"></label>
+          <label>Password: <input type="password"></label>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+
+          <div>
+               <h2>Select your gender</h2>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+          </div>
+   <!-- <div>
+     <label for="file-select">Upload:</label>
+    <input type="file" name="upload" id="file-select">
+   </div> -->
+
+   <div>
+     <label for="city">City:</label>
+     
+    <select name="city" id="city">
+        <option value="sydney">Sydney</option>
+        <option value="melbourne">Melbourne</option>
+        <option value="cromwell">Cromwell</option>
+    </select>
+   </div>
+
+   <fieldset>
+     <legend>Contact Details</legend>
+     <label>Email Address: <input type="email" name="email"></label>
+     <label>Phone Number: <input type="text" name="phone"></label>
+ </fieldset>
+
+ <div>
+     <h2>Kindly Select your favorite city</h2>  
+  <input type="radio" name="color" value="Ilorin"> Ilorin <br>  
+  <input type="radio" name="color" value="Offa"> Offa <br>  
+  <input type="radio" name="color" value="Lagos">Lagos<br>  
+  <input type="radio" name="color" value="Abuja">Abuja <br>  
+
+  <h2>Kindly Select your favourite sports</h2>  
+  <input type="checkbox" name="sport1" value="cricket">Cricket<br>  
+  <input type="checkbox" name="sport2" value="tennis">Tennis<br>  
+  <input type="checkbox" name="sport3" value="football">Football<br>  
+  <input type="checkbox" name="sport4" value="baseball">Baseball<br>  
+  <input type="checkbox" name="sport5" value="badminton">Badminton<br><br>  
+  <h2>Choose Language</h2>
+    <ul style="list-style-type:none;">
+      <li><input type="checkbox" name="language" value="hindi" />Hindi</li>
+      <li><input type="checkbox" name="language" value="english" />English</li>
+      <li><input type="checkbox" name="language" value="sanskrite" />Sanskrit</li>
+    </ul>
+    <div>
+     <h2> Select..</h2>
+     <select name = "dropdown">
+          <option value = "part-time" selected>Part-time</option>
+          <option value = "full-time">Full-time</option>
+       </select>
+    </div>
+    <br>
+      <input type="submit" value="submit">  
+
+ </div>
+ <br>
+  Description : <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter description here...
+          </textarea>
+      </form>
+</body>
+</html>
