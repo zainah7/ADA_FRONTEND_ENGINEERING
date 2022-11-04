@@ -1,0 +1,52 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     background-image: url(img/download\ \(10\).jpeg);
+ }
+ .main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(242, 242, 231);
+     font-family: sans-serif;
+     background: url(img/download\ \(1\).jpeg);
+     height: 100vh;
+     border-radius: 450px;
+ }
+ .main .container {
+     border: 6px dashed rgb(203, 197, 114);
+     outline: 4px outset wheat;
+     padding: 60px;
+     border-radius:100px ;
+ }
+ .main .container span:hover {
+     color:rgb(203, 197, 114);
+     cursor: pointer;
+ }
+ .main .container h1{
+     padding-bottom: 20px;
+     font-weight: 400;
+     text-align: center;
+ }
+ .main .container h3{
+     font-size: 35px;
+ }
+ ul {
+     list-style:none;
+     padding-top: 33.1px;
+     font-size: 22px;
+     margin-left: 2em;
+   } 
+ ul li {
+     padding-bottom: 15px;
+ }
+ ul li::before {
+     content: "\2022";
+     /* content: " (" attr(href) ")"; */
+     display: inline-block;
+     color: green;
+     font-weight: bold;
+     width: 1em;
+     margin-left: -1em;
+   }
